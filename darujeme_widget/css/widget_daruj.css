@@ -1,0 +1,97 @@
+.Darujte_Widget_class .stemps,
+.Darujte_Widget_class .frequences {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.Darujte_Widget_class .stemps a,
+.Darujte_Widget_class .frequences a {
+  color: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 4.5rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  transition: all 0.2s linear;
+  border: 1px dashed #000;
+  color: #000;
+}
+.Darujte_Widget_class .stemps a:last-child,
+.Darujte_Widget_class .frequences a:last-child {
+  margin-right: 0;
+}
+.Darujte_Widget_class .stemps a.active,
+.Darujte_Widget_class .frequences a.active,
+.Darujte_Widget_class .stemps a:hover,
+.Darujte_Widget_class .frequences a:hover,
+.Darujte_Widget_class .stemps a:focus,
+.Darujte_Widget_class .frequences a:focus {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.Darujte_Widget_class .frequences {
+  align-items: baseline;
+}
+.Darujte_Widget_class .frequences a {
+  height: auto;
+  width: auto;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0;
+}
+.Darujte_Widget_class .frequences:last-child a {
+  margin-right: 0;
+}
+.Darujte_Widget_class .amount_holder {
+  margin-left: -1.4rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+.Darujte_Widget_class .amount_holder .amount {
+  text-align: center;
+  color: #000;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+.Darujte_Widget_class .submit_holder {
+  display: block;
+  text-align: center;
+}
+.Darujte_Widget_class .submit_holder .send {
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border: 1px dashed #000;
+  color: #000;
+  padding: 0.5rem 2rem;
+}
+.Darujte_Widget_class .submit_holder .send.active,
+.Darujte_Widget_class .submit_holder .send:hover,
+.Darujte_Widget_class .submit_holder .send:focus {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.Darujte_Widget_class .widget_description {
+  margin-bottom: 1rem;
+}
+.action {
+  transition: all 0.2s linear;
+  border: 1px dashed #000;
+  color: #000;
+}
+.action.active,
+.action:hover,
+.action:focus {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.anim {
+  transition: all 0.2s linear;
+}

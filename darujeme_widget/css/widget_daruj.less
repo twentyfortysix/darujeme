@@ -1,0 +1,77 @@
+@active:#000;
+
+.Darujte_Widget_class{
+	.stemps, .frequences{
+		display:flex;
+		margin-bottom: 1rem;
+		justify-content: center;
+		cursor:pointer;
+			a{
+				color:#fff;
+				border-radius: 100%;
+				display:flex;
+				align-items: center;
+				justify-content: center;
+				height:3.5rem;
+				width:4.5rem;
+				font-size:0.8rem;
+				text-decoration: none;
+				margin-right: 0.5rem;
+				&:last-child{
+					margin-right: 0;
+				}
+				.action;
+			}	
+	}
+	.frequences{
+		align-items: baseline;
+		a{
+			height:auto;
+			width:auto;
+			padding:0.3rem 0.5rem;
+			margin-right: 0.5rem;
+			border-radius: 0;
+		}
+		&:last-child{
+			a{
+			margin-right: 0;
+			}
+		}
+	}
+	.amount_holder{
+		 margin-left: -1.4rem;
+		 margin-bottom: 0.8rem;
+		 text-align: center;
+		.amount{
+			text-align: center;
+			color:#000;
+			width:4rem;
+			margin-bottom: 1rem;
+		}
+	}
+	.submit_holder{
+		display:block;
+		text-align: center;
+		.send{
+			cursor:pointer;
+			.action;
+			padding:0.5rem 2rem;
+		}
+	}
+	.widget_description{
+		margin-bottom: 1rem;
+	}
+}
+.action{
+	.anim;
+	border:1px dashed @active;
+	color:@active;
+	&.active, &:hover, &:focus{
+		background-color: @active;
+		color:#fff;
+		text-decoration: none;
+	}
+}
+.anim{
+	transition: all 0.2s linear;
+}
