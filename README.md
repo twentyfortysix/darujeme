@@ -7,6 +7,8 @@ Stejne jako jakykoliv WP plugin. Hodit adresar do slozky plugins a aktivovat.
 
 Po aktivaci najdete novou widgetu kterou muzete vlozit do sidebaru a nastavit si u toho svoje ID, ID projektu a dalsi veci, jako castky apod.
 
+![widget](https://github.com/twentyfortysix/darujeme/blob/master/darujeme_widget/screenshot-1.jpg)
+
 Pokud nevidite moznost pridavat widgetym nemate asi definovany zadny sidebar.
 pridejte si do functions.php v aktualnim templejtu/sablone incializcai sidebaru:
 
